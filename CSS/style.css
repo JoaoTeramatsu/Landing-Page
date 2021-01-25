@@ -23,8 +23,7 @@ section{
     padding: 25px;
     overflow: hidden;
     background-size: cover;
-    background-image: url(../Images/people.jpg);
-    
+    background-image: url(../Images/people.jpg); 
 }
 
 h2{
