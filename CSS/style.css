@@ -54,6 +54,13 @@ input[type="submit"]{
     background-image: linear-gradient(cornflowerblue, cadetblue);  
     font-weight: bold;
 }
+footer{
+    /* background-image: linear-gradient(darkslategrey, dimgrey); */
+
+    background-color: dimgrey;
+    color: white;
+
+}
 .container{
     max-width: 1100px;
     margin: auto;
@@ -72,4 +79,9 @@ input[type="submit"]{
 
 .mb{
     margin-bottom: 20px;
+}
+
+.picture{
+    width: 180px;
+    
 }
