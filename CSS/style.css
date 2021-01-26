@@ -11,7 +11,8 @@ body{
 
 header{
     color: white;
-    background-image: linear-gradient(cornflowerblue, cadetblue);     
+    /* background-image: linear-gradient(cornflowerblue, cadetblue);      */
+    background-color: tomato;
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;   
@@ -51,14 +52,16 @@ select{
 
 input[type="submit"]{
     color: white;
-    background-image: linear-gradient(cornflowerblue, cadetblue);  
+    background-image: linear-gradient(tomato, red);  
+    /* background-color: tomato; */
     font-weight: bold;
 }
 footer{
-    /* background-image: linear-gradient(darkslategrey, dimgrey); */
 
     background-color: dimgrey;
     color: white;
+    text-align: center;
+    padding: 20px;
 
 }
 .container{
@@ -73,7 +76,7 @@ footer{
 .formContainer{
     background-color: #FFFFFFBB;
     max-width: 230px;
-    padding: 20px;
+    padding: 30px;
     float: right;
 }
 
@@ -82,6 +85,16 @@ footer{
 }
 
 .picture{
-    width: 180px;
+    width: 190px;
     
+}
+
+.description{
+    display: inline-block;
+    max-width: 35%;
+    margin-left: 40px;
+}
+
+.description p, .description h3{
+    margin-bottom: 10px;
 }
