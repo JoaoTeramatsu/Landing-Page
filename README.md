@@ -1,2 +1,3 @@
 # Landing Page
- My first landing page
+ My very first landing page
+just a template
